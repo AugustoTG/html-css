@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+/*
+em HTML é id= em CSS é #
+em HTML é class= em CSS é . 
+*/
+body {
+    background-image: linear-gradient(#f820c6e3, #bd1cd9c9, #9e2bf091);
+    width: auto;
+    height: auto;
+    padding: 7px;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+    font: normal, 16em, 'Inconsolata', monospace, arial, sans-serif;
+}
+h1 {
+    color: #4416a8c0;
+    text-indent: 30px;
+}
+h1#principal {
+    text-align: center;
+    color: #000;
+}
+h2 {
+    color: #1914a3c5;
+}
+.ht2 {
+    background-color: #9E2BF0;
+}
+.ct2{
+    background-color: #F820C5;
+}

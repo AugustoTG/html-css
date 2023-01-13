@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(241, 241, 207);
+        }
+        header {
+            text-align: center;
+            padding: 20px 10px;
+            margin: 10px;
+            background-color: aliceblue;
+
+        }
+        nav {
+            margin-right: auto;
+            background-color: rgba(167, 164, 164, 0.678);
+            text-shadow: 2px 2px 5px rgb(97, 96, 96);
+        }
+        nav > a:hover {
+            color: red;
+        }
+        nav > a {
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        main {
+            border-radius: 0px 40px;
+            box-shadow: 5px 5px 10px rgba(75, 74, 74, 0.774);
+            text-align: justify;
+            padding: 20px 10px;
+            margin: 10px;
+            background-color: aliceblue;
+        }
+        article {
+            background-color: cornflowerblue;
+            padding: 5px;
+        }
+        article > aside:hover {
+            background-color: aquamarine;
+        }
+        footer {
+            text-align: right;
+            padding: 4px;
+            margin: 0px;
+            background-color: rgba(111, 121, 120, 0.637);
+        }
+        #assuntos {
+            background-color: green
+        }
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: #fff;
+            margin: 50px auto 50px auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site.</h1>
+        <nav>
+            <a href="#">Site</a>
+            <a href="#">Site</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="principal">
+                <h2>Notícias do Brasil.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia libero in consequatur ut debitis, repellat dicta dolore non necessitatibus sed accusantium tempore iste ex veniam qui laudantium beatae natus! Rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fugit temporibus fugiat laborum, consequuntur praesentium perferendis voluptate. Vero, quos quidem obcaecati ad unde, ullam rerum illo assumenda tempora ex distinctio. <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo iusto fugit ab hic, itaque nostrum sed molestiae, quia, quas ullam nesciunt sint officia corrupti culpa excepturi accusantium quos voluptatem quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima veniam reprehenderit voluptatibus tempore non doloremque exercitationem quibusdam, dolorum qui impedit in? Sunt assumenda fugit quidem ut a, accusamus aliquid.</p>
+                <aside>
+                    Artigo escrito por Lorem.
+                </aside>
+            </article>
+            <article id="assuntos">
+                <h2>Coisas da terra.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia libero in consequatur ut debitis, repellat dicta dolore non necessitatibus sed accusantium tempore iste ex veniam qui laudantium beatae natus! Rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fugit temporibus fugiat laborum, consequuntur praesentium perferendis voluptate. Vero, quos quidem obcaecati ad unde, ullam rerum illo assumenda tempora ex distinctio. <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo iusto fugit ab hic, itaque nostrum sed molestiae, quia, quas ullam nesciunt sint officia corrupti culpa excepturi accusantium quos voluptatem quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima veniam reprehenderit voluptatibus tempore non doloremque exercitationem quibusdam, dolorum qui impedit in? Sunt assumenda fugit quidem ut a, accusamus aliquid.</p>
+                <aside>
+                    Artigo escrito por Lorem.
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        By Augusto tavares
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

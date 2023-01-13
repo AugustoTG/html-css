@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em hTml:5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Teste abrir esse site em vários dispositivos diferentes ou simplesmente aumentar e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em html5</p>
+    <!-- da para usar assim também<audio src="midia/lake-nirvana.MP3" controls autoplay></audio>-->
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/lake-nirvana.MP3" type="audio/mpeg">
+        <source src="midia/lake-nirvana.ogg" type="audio/ogg">
+        <source src="midia/lake-nirvana.wav" type="audio/wav">
+        <P>A ordem importa para para o caregamento, sempre colocar na ordem que você quer que o navegador tente executar</P>
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <br><a href="midia/lake-nirvana.MP3"></a>Clique aqui para baixar.</p>
+    </audio>
+</body>
+</html>

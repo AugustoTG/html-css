@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+header {
+    text-align: center;
+    background-image:radial-gradient(ellipse at top, #3CD681 , #1a5c38e0 80%, #1a5c38d7 90%);
+    height: 200px;
+    width: auto;
+    padding-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(212, 216, 219);
+    box-shadow: 2px -2px 8px 4px rgba(112, 133, 114, 0.705);
+}
+Header > h1 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+}
+.menu {
+    text-align: left;
+    padding: 35px 10px 10px 10px;
+}
+.home {
+    display: inline;
+    margin-left: 1px;
+    margin-right: 25px;
+}
+.noticias {
+    display: inline;
+    margin-right: 25px;
+}
+.curiosidades {
+    display: inline;
+    margin-right: 25px;
+}
+.faleconosco {
+    display: inline;
+    margin-right: 25px;
+}
+.home > p {
+    display: none;
+    color: #000;
+}
+.noticias > p {
+    display: none;
+    color: #000;
+}
+.curiosidades > p {
+    display: none;
+    color: #000;
+}
+.faleconosco > p {
+    display: none;
+    color: #000;
+}
+.home:hover > p {
+    display: block;
+    height: auto;
+    width: 200px;
+    background-image:radial-gradient(ellipse at top, #3cd6818f , #1a5c388f 80%, #1a5c388f 90%);
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+}
+.noticias:hover > p {
+    display: block;
+    height: auto;
+    width: 200px;
+    background-image:radial-gradient(ellipse at top, #3cd6818f , #1a5c388f 80%, #1a5c388f 90%);
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+}
+.curiosidades:hover > p {
+    display: block;
+    height: auto;
+    width: 200px;
+    background-image:radial-gradient(ellipse at top, #3cd6818f , #1a5c388f 80%, #1a5c388f 90%);
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+}
+.faleconosco:hover > p {
+    display: block;
+    height: auto;
+    width: 200px;
+    background-image:radial-gradient(ellipse at top, #3cd6818f , #1a5c388f 80%, #1a5c388f 90%);
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+}
+body {
+    background-color: #84E1AD;
+    margin: 1px;
+}
+main {
+    background-color: #fff;
+    height: max-content;
+    width: min-content;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 2px 2px 8px 4px rgba(112, 133, 114, 0.705);
+    border-radius: 0px 0px 8px 8px;
+}
+main > h2 {
+    margin: 0 auto;
+}
+main > p {
+    text-align: justify;
+    text-indent: 30px;
+}
+h2, h3 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: #2B6947;
+}
+.video {
+    display: block;
+    margin: auto;
+    width: min-content;
+}
+.bug {
+    display: block;
+    margin: auto;
+}
+h3 {
+    background-image:linear-gradient(75deg, #3cd6814f , #1a5c3811 80%, #1a5c3800 90%);
+}
+span {
+    color: #2B6947;
+    text-shadow: 1px 1px 1px #2B6947;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+}
+.extra {
+ background-color: #84e1ac7e;
+ box-shadow: 2px 2px 8px 4px rgba(112, 133, 114, 0.705);
+ border-radius: 0px 0px 8px 8px;
+ padding-bottom: 5px;
+}
+.extra > p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0 4px 0 4px;
+}
+h4 {
+    background-color: #2ba160;
+    padding: 10px 0 10px 10px;
+    color: #fff;
+}
+footer {
+    background-color: #1a5c388f;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
