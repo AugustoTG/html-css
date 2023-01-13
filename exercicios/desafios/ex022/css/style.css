@@ -23,7 +23,7 @@
 }
 header {
     text-align: center;
-    background-image:radial-gradient(ellipse at top, #3CD681 , #1a5c38e0 80%, #1a5c38d7 90%);
+    background-image:radial-gradient(ellipse at top, #3CD681 , #1a5c38e0, var(--cor05)80%);
     min-height: 150px;
     max-height: 200px;
     width: auto;
@@ -50,7 +50,7 @@ Header > p {
 nav {
     text-align: left;
     padding: 10px;
-    background-color: #063d1e63;
+    background-color:var(--cor03);
 }
 nav > a {
     color:#fff;
