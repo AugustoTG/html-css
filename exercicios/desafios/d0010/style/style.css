@@ -19,8 +19,9 @@ header {
 }
 h1 {
     font-family: var(--fonte-titulo);
-    font-size: 5em;
+    font-size: 6vw;
     font-weight: bold;
+    font-variant: small-caps slashed-zero;
 }
 header > p {
     font-family: var(--fomt-sub-titulo);
@@ -28,8 +29,19 @@ header > p {
 body {
     background-color: #000;
 }
-.text{
-
+section > p {
+    font-size: 3.5vw;
+    font-weight: normal;
+    font-family: var(--font-text);
+    font-variant: no-common-ligatures proportional-nums;
+    padding-left: 40px;
+}
+div > p {
+    font-size: 3.5vw;
+    font-weight: normal;
+    font-family: var(--font-text);
+    font-variant: no-common-ligatures proportional-nums;
+    padding-left: 40px;
 }
 a {
     text-decoration: none;
@@ -41,18 +53,39 @@ a:hover {
 }
 #t1 {
     background-color: #fff;
+    position: relative;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 #t2 {
     background-image: url(../img/background001.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    
 }
 #t3 {
-    background-color: #fff;
+    background-color: #fff; 
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 #t4 {
-    background-image: url(../img/background002.jpg);
+    background: #000 url(../img/background002.jpg) left center no-repeat fixed;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+div {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.300);
+    max-width: 50vw;
 }
 #t5 {
     background-color: #fff;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 footer{
     background-color: #000;
