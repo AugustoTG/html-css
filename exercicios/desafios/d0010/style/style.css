@@ -15,19 +15,24 @@ header {
     color: #fff;
     text-align: center;
     padding-top: 55px;
-    padding-bottom: 55px;
 }
 h1 {
     font-family: var(--fonte-titulo);
     font-size: 6vw;
     font-weight: bold;
-    font-variant: small-caps slashed-zero;
+    font-variant: small-caps;
 }
 header > p {
     font-family: var(--fomt-sub-titulo);
+    padding-bottom: 55px;
 }
-body {
+html, body {
     background-color: #000;
+    min-height: 100vh;
+}
+section {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 section > p {
     font-size: 3.5vw;
@@ -35,13 +40,17 @@ section > p {
     font-family: var(--font-text);
     font-variant: no-common-ligatures proportional-nums;
     padding-left: 40px;
+    line-height: 2em;
+    padding-bottom: 2em;
 }
+
 div > p {
     font-size: 3.5vw;
     font-weight: normal;
     font-family: var(--font-text);
     font-variant: no-common-ligatures proportional-nums;
     padding-left: 40px;
+    line-height: 2em;
 }
 a {
     text-decoration: none;
@@ -54,8 +63,6 @@ a:hover {
 #t1 {
     background-color: #fff;
     position: relative;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
 }
 #t2 {
     background-image: url(../img/background001.jpg);
@@ -63,29 +70,25 @@ a:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
-    
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.61);
 }
 #t3 {
     background-color: #fff; 
-    padding-top: 10vw;
-    padding-bottom: 10vw;
 }
 #t4 {
     background: #000 url(../img/background002.jpg) left center no-repeat fixed;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.61);
 }
 div {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.300);
-    max-width: 50vw;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.450);
+    padding: 5px 5px 5px 0;
+    color:#fff;
+    text-shadow: 1px 1px 0px black;
 }
 #t5 {
     background-color: #fff;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
 }
 footer{
     background-color: #000;
