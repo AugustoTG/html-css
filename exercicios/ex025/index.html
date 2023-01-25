@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulario</h1>
+    <form action="cadastro.js" autocomplete="off"> <!--autocomplete serve para ligar ou desligar o preenchimento automático-->
+        <label for="inome">Nome:
+             <input type="text" name="nome" id="inome"></label>
+        <label for="isobrenome">Sobrenome: <input type="text" name="sobrenome" id="isobrenome"></label>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
