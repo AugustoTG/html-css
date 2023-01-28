@@ -11,7 +11,13 @@
         <form action="cadastro.js" method="post" autocomplete="on">
           <p>
             <label for="icor">Cor:</label>
-            <input type="color" name="cor" id="icor">
+            <input type="color" name="cor" id="icor" value="#00ff00">
+          </p>
+          <p>
+            <label for="inivel">Nível de satisfação:</label><input type="range" name="nivel" id="inivel" value="2" min="1" max="3">
+          </p>
+          <p>
+            <label for="file"></label>foto de perfil: <input type="file" name="file" id="file">
           </p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
