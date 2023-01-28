@@ -10,9 +10,15 @@
     <h1>Exemplo de formulário:</h1>
         <form action="cadastro.js" method="post" autocomplete="on">
           <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="Sexo" id="imas" value="m"> <label for="imas">Masculino</label> <br>
+            <input type="radio" name="Sexo" id="ifem" value="f"> <label for="ifem">Feminino</label>
+          </fieldset>
+          <fieldset>
             <legend>Esportes Favoritos</legend>
-            <input type="futebol" name="futebol" id="check"> Futebol
-            <input type="tenis" name="tenis" id="check"> Tênis
+            <input type="checkbox" name="futebol" id="ifutebol" checked> <label for="ifutebol">Futebol</label> <br>
+            <input type="checkbox" name="tenis" id="itenis"> <label for="itenis">Tênis</label> <br>
+            <input type="checkbox" name="natacao" id="inatacao"> <label for="inatacao">Natação</label> <br>
           </fieldset>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
