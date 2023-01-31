@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* para print*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  1.5 em;
+    line-height: 1.5 em;
+}
+menu {
+    display: none;
+}
